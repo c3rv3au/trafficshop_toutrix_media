@@ -5,8 +5,6 @@ require('countries.php');
 set_time_limit(0);
 ignore_user_abort(true);
 
-define(minimum_profit_per,0.95);
-
 function get_cpm($adserver) {
   global $_countries;
 

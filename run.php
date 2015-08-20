@@ -5,12 +5,19 @@ require "trafficshop.php";
 // Change the value of the fields below
 define('trafficshop_username','CHANGE ME');
 define('trafficshop_password','CHANGE ME');
+
+// You can find your domain_sel in the source page here:
+// https://www.trafficshop.com/publishers/selling_traffic/skimmed/?type=7
+// Find for name='domain_sel[]' and check for value
 define('trafficshop_domain_sel',12345); // Change this too
-define('trafficshop_url',"http://go.trafficshop.com/51334643"); // Change URL for your own url
+
+// Change URL for your own url. Check at: https://www.trafficshop.com/publishers/settings/
+define('trafficshop_url',"http://go.trafficshop.com/51334643"); 
 
 define("toutrix_username",'CHANGE ME');
 define("toutrix_password",'CHANGE ME');
 
+// Change this to true
 define("ENABLED",false);
 
 if (!ENABLED)

@@ -10,9 +10,9 @@ SETUP
 
 change directory to your workspace
 
-mkdir trafficshop && cd trafficshop
-
 git clone https://github.com/c3rv3au/trafficshop_toutrix_media.git
+
+cd trafficshop_toutrix_media
 
 mkdir classes && cd classes
 
