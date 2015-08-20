@@ -7,9 +7,8 @@ ignore_user_abort(true);
 
 define(minimum_profit_per,0.95);
 
-function get_cpm() {
+function get_cpm($adserver) {
   global $_countries;
-  global $adserver;
 
   require("trafficshop.dat");
 
@@ -150,8 +149,7 @@ function get_cpm() {
   } // For Each Countries
 }
 
-function setup() {
-  global $adserver;
+function setup($adserver) {
   global $_countries;
 
   $datas = array();
