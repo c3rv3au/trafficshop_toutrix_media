@@ -34,7 +34,7 @@ if ($connected) {
 }
 
 // Only do once
-if (!fileexist("trafficshop.dat"))
+if (!file_exists("trafficshop.dat"))
   setup($adserver);
 
 get_cpm($adserver);
