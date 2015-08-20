@@ -10,13 +10,13 @@ SETUP
 
 change directory to your workspace
 
-$ mkdir trafficshop && cd trafficshop
-$ git clone https://github.com/c3rv3au/trafficshop_toutrix_media.git
-$ mkdir classes && cd classes
-$ git clone https://github.com/c3rv3au/toutrix_php
+mkdir trafficshop && cd trafficshop
+git clone https://github.com/c3rv3au/trafficshop_toutrix_media.git
+mkdir classes && cd classes
+git clone https://github.com/c3rv3au/toutrix_php
 
-This script is using this Toutrix PHP API connector :
+This script is using the Toutrix PHP API connector :
 https://github.com/c3rv3au/toutrix_php
 
-$ cd ..
+cd ..
 

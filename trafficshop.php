@@ -1,21 +1,5 @@
 <?
 // Fetch datas on TrafficShop and send the datas to AdServer API, only for desktop
-
-// Change the value of the fields below
-
-define('trafficshop_username','CHANGE ME');
-define('trafficshop_password','CHANGE ME');
-define('trafficshop_domain_sel',12345); // Change this too
-define('trafficshop_url',"http://go.trafficshop.com/51334643"); // Change URL for your own url
-
-define("ENABLED",false);
-
-// -- STOP EDITING FROM HERE
-
-if (!ENABLED)
-  die("Read the script file first.\n");
-
-require('common.php');
 require('countries.php');
 
 set_time_limit(0);
@@ -181,7 +165,7 @@ function setup() {
   var_dump($campaign);
   $campaignId = $campaign->id;
 
-  //$campaignId = 18;
+  //$campaignId = ?;
   echo "Campaign ID: " . $campaignId . "\n";
 
   // Creative
@@ -196,7 +180,7 @@ function setup() {
   var_dump($creative);
   $creativeId = $creative->id;
 
-  //$creativeId = 3;
+  //$creativeId = ?;
   echo "Creative ID: " . $creativeId . "\n";
 
   // Now add a target to this flight to the good channel. All flight herit from this target
